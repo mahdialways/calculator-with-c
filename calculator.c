@@ -5,6 +5,7 @@ int main(){
     double answer;
     char operation;
 
+    printf("***************Mahdi's calculator**************\n");
     printf("Enter the value of x: ");
     scanf("%d", &x);
     printf("Enter the value of y: ");
@@ -30,16 +31,17 @@ int main(){
     else if (operation == '/'){
         if( y != 0){
             answer = (double)x/y;
-            printf("Your answer is: %.2lf", answer);
+            printf("Your answer is: %.2lf \n", answer);
         }else{
-            printf("X cannot be divided by 0");
+            printf("X cannot be divided by 0 \n");
         }
     }
     else{
 
-    printf("Please enter a valid operation");
+    printf("Please enter a valid operation \n");
     }
 
+    printf("*****************************************\n");
     return 0;
 
 }
